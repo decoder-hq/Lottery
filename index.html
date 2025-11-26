@@ -13,61 +13,63 @@
     <link rel="icon" href="/Files/brand.png">
 
 <body class="faculty-glyphic-regular aladin-regular">
-    <header>
+    <header class="header">
         <nav class="navbar">
+            <img id="brand" src="./Files/brandd.png" alt="">
+            <ul class="nav-links">
+                <li>
+                    <a  onclick="gotoTop()" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a  onclick="gotoResults()" class="nav-link">Results</a>
+                </li>
+            </ul>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#" onclick="gotoTop()" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" onclick="gotoResults()" class="nav-link">Results</a>
-                </li>
-            </ul>
-            <div>
-                <img id="brand" src="./Files/brand.png" alt="">
-            </div>
         </nav>
     </header>
-    <div class="main text">
+    <section class= "text">
         <h2>Welcome To</h2>
-        <img id="logo" style="width: 75%;" src="./Files/brand.png" alt="">
+        <img id="logo" style="width: 75%;" src="./Files/brandd.png" alt="">
         <h3>MAHARASHTRA STATE LOTTERY RESULTS</h3>
         <h3>LIVE</h3>
+    </section>
+    <section id="results">
         <h4>TODAY'S RESULTS</h4>
         <div class="btns">
             <button class="faculty-glyphic-regular aladin-regular" onclick="location.href=''">02:00 PM</button>
             <button class="faculty-glyphic-regular aladin-regular" onclick="location.href=''">09:00 PM</button>
         </div>
-        <div class="description">
-            <h3 style="text-align: center;">Draw Schedule</h3>
-            <p style="text-align: left; line-height: 30px;">
-                Maharashtra State Lottery – Your Gateway to Fortune! <br>
+    </section>
+    <section class="description">
+        <h3 style="text-align: center;">Draw Schedule</h3>
+        <p style="text-align: left; line-height: 30px;">
+            Maharashtra State Lottery – Your Gateway to Fortune! <br>
 
-                Welcome to Maharashtra State Lottery, one of India's most trusted and exciting lottery platforms! With a
-                proud
-                legacy of delivering life-changing wins, Maharashtra State Lottery offers you the chance to turn your
-                dreams into
-                reality every single day. <br>
+            Welcome to Maharashtra State Lottery, one of India's most trusted and exciting lottery platforms! With a
+            proud
+            legacy of delivering life-changing wins, Maharashtra State Lottery offers you the chance to turn your
+            dreams into
+            reality every single day. <br>
 
-                Stand a chance to win the grand First Prize of Rs. 1 Crore! Whether you're trying your luck for the
-                first time or you're a seasoned player, our transparent and regulated draws give everyone a fair shot at
-                striking it rich. <br>
+            Stand a chance to win the grand First Prize of Rs. 1 Crore! Whether you're trying your luck for the
+            first time or you're a seasoned player, our transparent and regulated draws give everyone a fair shot at
+            striking it rich. <br>
 
-                Stay in the loop with daily results updated two times a day at 02:00 PM and 09:00 PM. We
-                ensure punctual and accurate result announcements, so you’re never left guessing. <br>
+            Stay in the loop with daily results updated two times a day at 02:00 PM and 09:00 PM. We
+            ensure punctual and accurate result announcements, so you’re never left guessing. <br>
 
-                Join thousands of lucky winners and make every day a winning day with Maharashtra State Lottery – where
-                dreams
-                meet destiny.</p>
-        </div>
-        <button onclick="gotoTop()" id="upward"><i class="fa-solid fa-arrow-up"></i></button>
+            Join thousands of lucky winners and make every day a winning day with Maharashtra State Lottery – where
+            dreams
+            meet destiny.</p>
+    </section>
+    <button onclick="gotoTop()" id="upward"><i class="fa-solid fa-arrow-up"></i></button>
+    <div class="video">
+      <video src="./Files/91260-628462870_tiny.mp4" autoplay muted loop plays-inline></video>
     </div>
-
     <script src="script.js"></script>
 </body>
 
